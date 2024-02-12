@@ -1,6 +1,5 @@
 # Project Name
-> Outline a brief description of your project.
-
+> Upgrad EPGP AI ML Bike Sharing case study from Pushpendra Hirwani
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -8,45 +7,41 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
-
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- This assignment is a programming assignment wherein you have to build a multiple linear regression model for the prediction of demand for shared bikes. You will need to submit a Jupyter notebook for the same. 
+- A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
+- The dataset in use is day.csv
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- People seem to take lesser bike rentals in spring season
+- There seems to have been significant rise in total rentals from 2018 to 2019
+- People dont seem to prefer to take rentals on holidays when compared with non-holidays
+- Clear and misty seems to have similar number of total rentals but there is a significant decrease in total rentals if it's a Light snowy day or a day with heavy rains
+- There is high correlation between cnt and temp feature
+- **Without RFE, following features were found to be significant and useful for model building, 
+        'yr', 'workingday', 'temp', 'hum', 'windspeed',
+       'weekday_monday', 'weekday_saturday', 'weekday_tuesday',
+       'season_spring', 'season_summer', 'season_winter', 'weathersit_misty',
+       'weathersit_snowy', 'mnth_January', 'mnth_March', 'mnth_May',
+       'mnth_September'**
+ **The R^2 value using this method is 0.8175783496843466**
+- **Using RFE, following features were found to be significant and useful for model building, 
+       'yr', 'workingday', 'temp', 'hum', 'windspeed',
+       'weekday_saturday', 'weekday_sunday', 'season_spring',
+       'weathersit_misty', 'weathersit_snowy', 'mnth_July'
+ The R^2 value using RFE method is 0.8037672953255921**
+- Both approach showed uniform distribution for error terms
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Visual studio Code
+- numpy, pandas, seaborn, matplotlib, statsmodel, scikit
+- Anaconda 3
+- Python 3.11.4
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project was inspired by learn.upgrad.com
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@pozoxoxo] - feel free to contact me!
