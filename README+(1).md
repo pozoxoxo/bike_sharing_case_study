@@ -62,11 +62,11 @@ mnth_July          -0.088842
  The R^2 value using RFE method is 0.8037672953255921
 - Both approach showed uniform distribution for error terms
 
-**- As there is an increase on bike rentals, Company can increase their sales by focusing these following factors
-    - Temperature plays a huge role in the bike rentals, Higher the temperature higher the rentals
-    - People generally tend to take lesser rentals on Snowy dyas
-    - Company can focus on promoting bike rentals on saturday and winter season
-    - People generally tend to take lesser rentals on days having high windspeed followed by humid days**
+- **As there is an increase on bike rentals, Company can increase their sales by focusing these following factors**
+    - **Temperature plays a huge role in the bike rentals, Higher the temperature higher the rentals**
+    - **People generally tend to take lesser rentals on Snowy days**
+    - **Company can focus on promoting bike rentals on saturday and winter season**
+    - **People generally tend to take lesser rentals on days having high windspeed followed by humid days**
 
 ## Technologies Used
 - Visual studio Code
