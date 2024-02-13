@@ -42,7 +42,9 @@
   - mnth_March          0.022664
   - mnth_May            0.026031
   - mnth_September      0.092849
- **The R^2 value using this method is 0.8175783496843466**
+    
+**The R^2 value using this method is 0.8175783496843466**
+
 - Using RFE, following features were found to be significant and useful for model building, 
 'yr', 'workingday', 'temp', 'hum', 'windspeed',
 'weekday_saturday', 'weekday_sunday', 'season_spring',
@@ -59,7 +61,9 @@
   - weathersit_misty   -0.065001
   - weathersit_snowy   -0.247232
   - mnth_July          -0.088842
- **The R^2 value using RFE method is 0.8037672953255921**
+ 
+**The R^2 value using RFE method is 0.8037672953255921**
+
 - Both approach showed uniform distribution for error terms
 
 - **As there is an increase on bike rentals, Company can increase their sales by focusing these following factors**
